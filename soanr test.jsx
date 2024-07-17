@@ -611,4 +611,4 @@ collectButton.onClick = function() {
     }
     renderLocation();
     codeexecute();
-};
+}; //COmen
