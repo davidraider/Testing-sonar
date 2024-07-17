@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "eslint . -f json -o eslint-report.json",
-    "sonar": ""
+    "sonar": "node run.js"
   },
   "eslintConfig": {
     "extends": "./eslint.config.mjs"
