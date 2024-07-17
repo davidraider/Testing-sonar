@@ -12,7 +12,7 @@ export default [
   ...compat.extends('eslint:recommended'),
 
   {
-    files: ["**/*.jsx"], // Match your project files
+    files: ["soanr test.jsx"], // Match your project files
     languageOptions: {
       ecmaVersion: 2015, // ECMAScript version you are using
       sourceType: "module", // Use "script" if not using modules

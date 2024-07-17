@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "lint": "eslint . -f json -o eslint-report.json",
+    "lint": "eslint . -f json -o eslint-report.json",
     "sonar": "node run.js"
   },
   "eslintConfig": {
@@ -16,6 +16,7 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.7.0",
+    "axios": "^1.7.2",
     "eslint": "^9.7.0",
     "globals": "^15.8.0",
     "sonarqube-scanner": "^4.0.1"
